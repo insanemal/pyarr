@@ -12,6 +12,8 @@ ReadarrCommands = Literal[
     "RssSync",
     "Backup",
     "MissingBookSearch",
+    "ManualImport",
+    "DownloadedBooksScan",
 ]
 """Readarr commands.
 
@@ -69,6 +71,14 @@ Backup:
 
 MissingBookSearch:
     Searches for any missing books
+    
+ManualImport:
+    Perform a manual import
+
+    Args:
+        files: list of ManualImport file dictionaries (these are different to usual file dict's)
+        importMode (str): "auto" works. 
+        replaceExistingFiles (bool) : does what it says. 
 """
 
 #: Readarr sort keys.
