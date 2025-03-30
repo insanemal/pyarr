@@ -13,6 +13,7 @@ ReadarrCommands = Literal[
     "Backup",
     "MissingBookSearch",
     "ManualImport",
+    "DownloadedBooksScan",
 ]
 """Readarr commands.
 
